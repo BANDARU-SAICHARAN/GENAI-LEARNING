@@ -1,0 +1,38 @@
+# TOKENIZATION IN NLP
+
+# Tokenization means splitting text into smaller parts
+# like sentences and words.
+
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize
+
+# Download required package
+nltk.download('punkt')
+
+# Input text
+text = "Hello Charan. Welcome to NLP learning. You are learning tokenization."
+
+# -------------------------------
+# Sentence Tokenization
+# -------------------------------
+sentences = sent_tokenize(text)
+
+print("Sentence Tokenization:")
+print(sentences)
+
+# -------------------------------
+# Word Tokenization
+# -------------------------------
+words = word_tokenize(text)
+
+print("\nWord Tokenization:")
+print(words)
+
+
+#out put#
+
+Sentence Tokenization:
+['Hello Charan.', 'Welcome to NLP learning.', 'You are learning tokenization.']
+
+Word Tokenization:
+['Hello', 'Charan', '.', 'Welcome', 'to', 'NLP', 'learning', '.', 'You', 'are', 'learning', 'tokenization', '.']
