@@ -14,7 +14,7 @@ st.write(f"Your age is {age}")
 data = {
     "Name": ["charan", "manoj", "harsha", "hemath", "shekhar"],
     "Age": [23, 23, 22, 23, 23],
-    "City": ["Bangalore", "Bangalore", "Bangalore", "Bangalore", "Hyderabad"]
+    "City": ["Bangalore", "Bangalore", "Bangalore", "Bangalore", "hyderabad"]
 }
 
 df = pd.DataFrame(data)
