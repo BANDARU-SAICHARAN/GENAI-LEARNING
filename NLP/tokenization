@@ -21,7 +21,7 @@ print("Sentence Tokenization:")
 print(sentences)
 
 # -------------------------------
-# Word Tokenization
+# Word documentation 
 # -------------------------------
 words = word_tokenize(text)
 
